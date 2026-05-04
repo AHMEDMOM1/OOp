@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Car">
+      <UniqueIdentifier>{799683c3-722b-43d1-9485-15c03f16a303}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Car\Service">
+      <UniqueIdentifier>{eaf40752-1266-4777-a85b-bef6b107d42b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Car\Models">
+      <UniqueIdentifier>{0c83a31a-360e-4b70-81e5-f7e2bda102d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UseFullLib">
+      <UniqueIdentifier>{acf7b6cb-aee5-4b79-8dbb-393aacecd87e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI">
+      <UniqueIdentifier>{42dbf320-c7fb-4bb3-8aa5-eb64e0019c8a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DataStructure.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Models\ParkingSpot.h">
+      <Filter>Header Files\Car\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Service\ParkingSystem.h">
+      <Filter>Header Files\Car\Service</Filter>
+    </ClInclude>
+    <ClInclude Include="Models\Car.h">
+      <Filter>Header Files\Car\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Models\ParkingRecord.h">
+      <Filter>Header Files\Car\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="UseFullLib\Date.h">
+      <Filter>Header Files\UseFullLib</Filter>
+    </ClInclude>
+    <ClInclude Include="UseFullLib\clsString.h">
+      <Filter>Header Files\UseFullLib</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\ParkingScreen.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
