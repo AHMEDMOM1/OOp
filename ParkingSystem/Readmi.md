@@ -19,6 +19,3 @@ A professional, object-oriented Parking Management System implemented in C++. Th
 1. Clone the repository.
 2. Open `DataStructure.sln` in Visual Studio 2022.
 3. Build and run (Ctrl+F5).
-
-## 📸 Screenshots
-*(Add your console screenshots here!)*
