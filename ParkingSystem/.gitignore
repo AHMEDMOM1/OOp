@@ -1,0 +1,10 @@
+.vs/
+out/
+build/
+x64/
+Debug/
+Release/
+*.user
+*.aps
+*.pch
+*.vsix
