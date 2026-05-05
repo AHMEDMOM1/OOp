@@ -2,8 +2,8 @@
 
 int main()
 {
-	ParkingScreen ui = ParkingScreen::setup();
-	ui.run();
+	ParkingScreen park = ParkingScreen::setup();
+	park.run();
 
 	return 0;
 }
