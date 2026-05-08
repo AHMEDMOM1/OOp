@@ -105,7 +105,7 @@
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
-      <AdditionalIncludeDirectories>$(ProjectDir)Models;$(ProjectDir)Service;$(ProjectDir)UseFullLib;$(ProjectDir)UI</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)SmartHome\Manager;$(ProjectDir)SmartHome\Models;$(ProjectDir)SmartHome\UI;$(ProjectDir)Car\Models;$(ProjectDir)Car\Service;$(ProjectDir)Car\UI;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -131,11 +131,21 @@
     <ClCompile Include="DataStructure.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Models\Car.h" />
-    <ClInclude Include="Models\ParkingRecord.h" />
-    <ClInclude Include="Models\ParkingSpot.h" />
-    <ClInclude Include="Service\ParkingSystem.h" />
-    <ClInclude Include="UI\ParkingScreen.h" />
+    <ClInclude Include="Car\Models\Car.h" />
+    <ClInclude Include="Car\Models\ParkingRecord.h" />
+    <ClInclude Include="Car\Models\ParkingSpot.h" />
+    <ClInclude Include="Car\Service\ParkingSystem.h" />
+    <ClInclude Include="Car\UI\ParkingScreen.h" />
+    <ClInclude Include="SmartHome\Manager\Room.h" />
+    <ClInclude Include="SmartHome\Manager\SmartHomeSystem.h" />
+    <ClInclude Include="SmartHome\Models\SmartAirConditioner.h" />
+    <ClInclude Include="SmartHome\Models\SmartDevice.h" />
+    <ClInclude Include="SmartHome\Models\SmartLock.h" />
+    <ClInclude Include="SmartHome\Models\SmartLight.h" />
+    <ClInclude Include="SmartHome\UI\MainMenuScreen.h" />
+    <ClInclude Include="SmartHome\UI\RoomsScreen.h" />
+    <ClInclude Include="SmartHome\UI\DevicesScreen.h" />
+    <ClInclude Include="SmartHome\UI\UIHelper.h" />
     <ClInclude Include="UseFullLib\clsString.h" />
     <ClInclude Include="UseFullLib\Date.h" />
   </ItemGroup>

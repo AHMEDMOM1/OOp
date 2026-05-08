@@ -1,19 +1,2 @@
 ﻿  DataStructure.cpp
-S:\Working\Programming\C++\DataStructure\DataStructure\UI\ParkingScreen.h(80,3): error C2662: 'void ParkingScreen::_setColor(int)': cannot convert 'this' pointer from 'const ParkingScreen' to 'ParkingScreen &'
-  (compiling source file 'DataStructure.cpp')
-      S:\Working\Programming\C++\DataStructure\DataStructure\UI\ParkingScreen.h(80,3):
-      Conversion loses qualifiers
-      S:\Working\Programming\C++\DataStructure\DataStructure\UI\ParkingScreen.h(22,7):
-      see declaration of 'ParkingScreen::_setColor'
-      S:\Working\Programming\C++\DataStructure\DataStructure\UI\ParkingScreen.h(80,3):
-      while trying to match the argument list '(ParkingScreen::Color)'
-  
-S:\Working\Programming\C++\DataStructure\DataStructure\UI\ParkingScreen.h(82,3): error C2662: 'void ParkingScreen::_resetColor(void)': cannot convert 'this' pointer from 'const ParkingScreen' to 'ParkingScreen &'
-  (compiling source file 'DataStructure.cpp')
-      S:\Working\Programming\C++\DataStructure\DataStructure\UI\ParkingScreen.h(82,3):
-      Conversion loses qualifiers
-      S:\Working\Programming\C++\DataStructure\DataStructure\UI\ParkingScreen.h(26,7):
-      see declaration of 'ParkingScreen::_resetColor'
-      S:\Working\Programming\C++\DataStructure\DataStructure\UI\ParkingScreen.h(82,3):
-      while trying to match the argument list '()'
-  
+  DataStructure.vcxproj -> S:\Working\Programming\C++\DataStructure\x64\Debug\DataStructure.exe

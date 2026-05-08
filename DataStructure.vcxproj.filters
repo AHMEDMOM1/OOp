@@ -25,8 +25,20 @@
     <Filter Include="Header Files\UseFullLib">
       <UniqueIdentifier>{acf7b6cb-aee5-4b79-8dbb-393aacecd87e}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\UI">
+    <Filter Include="Header Files\Car\UI">
       <UniqueIdentifier>{42dbf320-c7fb-4bb3-8aa5-eb64e0019c8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SmartHome">
+      <UniqueIdentifier>{97ebb7d7-07d5-4694-8669-a1a954a855d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SmartHome\Models">
+      <UniqueIdentifier>{d4fc4a8b-0398-459b-bb5c-c0471d00c4cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SmartHome\Manager">
+      <UniqueIdentifier>{03743e7d-56da-43a4-905c-758b48a7044d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SmartHome\UI">
+      <UniqueIdentifier>{53b17ad3-cb36-43ad-944b-2aca7ad2cdce}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -35,26 +47,53 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Models\ParkingSpot.h">
-      <Filter>Header Files\Car\Models</Filter>
-    </ClInclude>
-    <ClInclude Include="Service\ParkingSystem.h">
-      <Filter>Header Files\Car\Service</Filter>
-    </ClInclude>
-    <ClInclude Include="Models\Car.h">
-      <Filter>Header Files\Car\Models</Filter>
-    </ClInclude>
-    <ClInclude Include="Models\ParkingRecord.h">
-      <Filter>Header Files\Car\Models</Filter>
-    </ClInclude>
     <ClInclude Include="UseFullLib\Date.h">
       <Filter>Header Files\UseFullLib</Filter>
     </ClInclude>
     <ClInclude Include="UseFullLib\clsString.h">
       <Filter>Header Files\UseFullLib</Filter>
     </ClInclude>
-    <ClInclude Include="UI\ParkingScreen.h">
-      <Filter>Header Files\UI</Filter>
+    <ClInclude Include="SmartHome\Models\SmartDevice.h">
+      <Filter>Header Files\SmartHome\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="SmartHome\Models\SmartLock.h">
+      <Filter>Header Files\SmartHome\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="SmartHome\Models\SmartLight.h">
+      <Filter>Header Files\SmartHome\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="SmartHome\Manager\SmartHomeSystem.h">
+      <Filter>Header Files\SmartHome\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="SmartHome\Models\SmartAirConditioner.h">
+      <Filter>Header Files\SmartHome\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="SmartHome\Manager\Room.h">
+      <Filter>Header Files\SmartHome\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Car\Models\Car.h">
+      <Filter>Header Files\Car\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Car\Models\ParkingRecord.h">
+      <Filter>Header Files\Car\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Car\Models\ParkingSpot.h">
+      <Filter>Header Files\Car\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Car\Service\ParkingSystem.h">
+      <Filter>Header Files\Car\Service</Filter>
+    </ClInclude>
+    <ClInclude Include="Car\UI\ParkingScreen.h">
+      <Filter>Header Files\Car\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="SmartHome\UI\MainMenuScreen.h">
+      <Filter>Header Files\SmartHome\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="SmartHome\UI\RoomsScreen.h">
+      <Filter>Header Files\SmartHome\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="SmartHome\UI\UIHelper.h">
+      <Filter>Header Files\SmartHome\UI</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
